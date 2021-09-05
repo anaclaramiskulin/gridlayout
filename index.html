@@ -1,25 +1,142 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>Criação de Sites</title>
-        <link href="./css/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <header>
-            
-           
-        </header>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Sites</title>
+    <meta name="author" content="Ana Clara Barcella Miskulin" />
+    <meta name="description" content="GRID Layout" />
+    <link href="./css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="container">
+        <div id="logo">
+            <img src="./imagens/logo.png" />
+        </div>
         <nav>
-            
+            <ul>
+                <li><a href="#h-sobre">Sobre</a></li>
+                <li><a href="#h-cursos">Cursos</a></li>
+                <li><a href="#h-planos">Planos</a></li>
+                <li><a href="#h-valores">Valores</a></li>
+            </ul>
         </nav>
-        <main>
-            
-        </main>
-        <footer>
-            
-        </footer>
+    </header>
+    <main>
+        <h1 id="h-sobre">SOBRE</h1>
+        <section id="Sobre" class="container">
+            <div>
+                <p>Ao conectar alunos do mundo todo aos melhores instrutores, a <strong>Info</strong> está ajudando as
+                    pessoas a alcançar suas metas e ir atrás de seus sonhos. </p>
+            </div>
+            <div>
+                <p id="paragrafo">The standard chunk of Ipsum used since the 1500s is reproduced below for those
+                    interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum te Malorum" by Cicero are also
+                    reproduced in their exact orginal form, accompanied by English versions form the 1914 tranlation by
+                    H. Rackham. </p>
+            </div>
+            <div class="container-flex">
+                <div class="java-img">
+                    <img src="./imagens/java.png" />
+                </div>
+                <div class="php">
+                    <img src="./imagens/php.png" />
+                </div>
+            </div>
+        </section>
+        <hr id=" hr"> 
+        <h1 id="h-cursos">Cursos</h1>
+        <section id="cursos" class="container">
+            <div id="curso-wd">
+                <h2>Web Design </h2>
+                <img src="./imagens/web-design.png" />
+            </div>
+            <div id="curso-prog">
+                <h2>Programação </h2>
+                <img src="./imagens/java.png" />
+            </div>
+            <div id="curso-bd">
+                <h2>Banco de dados </h2>
+                <img src="./imagens/bd.png" />
+            </div>
+        </section>
+    
+        <h1 id="h-planos">Planos</h1>
+        <section id="planos" class="container">
+            <div id="planos-bronze">
+                <h2 class="tipo-plano">Bronze</h2>
+                <h3>R$19,90</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pharetra leo ut convallis. </p>
+                <h2 class="contratar">Contratar</h2>
+            </div>
+            <div id="planos-prata">
+                <h2 class="tipo-plano">Prata</h2>
+                <h3>R$29,90</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id tincidunt tortor, ut feugiat nibh.
+                    Mauris quis turpis ornare. Lorem ipsum dolor sit amet.</p>
+                <h2 class="contratar">Contratar</h2>
+            </div>
+            <div id="planos-ouro">
+                <h2 class="tipo-plano">Ouro</h2>
+                <h3>R$39,90</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla orci id sapien auctor
+                    luctus. Nullam ullamcorper vehicula arcu, eu facilisis est. Lorem ipsum dolor sit amet, con. </p>
+                <h2 class="contratar">Contratar</h2>
+            </div>
+        </section>
+        <h1 id="h-valores">Valores</h1>
+        <section id="Valores" class="container">
+            <div id="Qualidade">
+                <div id="blueboard">
+                    <h2 id="Qualidad">Qualidade</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus augue turpis, gravida eget elit
+                    nec, ultrices lobortis dui. Nulla nulla justo, eleifend vitae. </p>
+            </div>
+            <div id="Eficiência">
+                <div id="redboard">
+                    <h2 id="Eficiênci">Eficiência</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non tellus eros. Duis vestibulum tortor
+                    vitae lectus rhoncus, sed tincidunt tortor varius. Donec pharetra dictum nisl vel facilisis. Vivamus
+                    commodo nunc arcu, vel posuere turpis auctor id. </p>
+            </div>
+            <div id="Compromisso">
+                <div id="greenboard">
+                    <h2 id="Compromiss">Compromisso</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non metus consectetur, laoreet eros
+                    in, vestibulum augue. Nullam eu nulla ornare, blandit nisl. </p>
+            </div>
+            <div id="Inovação">
+                <div id="yellowboard">
+                    <h2 id="Inovaçã">Inovação</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus augue turpis, gravida eget elit
+                    nec, ultrices lobortis dui. Nulla nulla justo, eleifend vitae. </p>
+            </div>
+            <div id="Pesquisa">
+                <div id="pinkboard">
+                    <h2 id="Pesquis">Pesquisa</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non tellus eros. Duis vestibulum tortor
+                    vitae lectus rhoncus, sed tincidunt tortor varius. Donec pharetra dictum nisl vel facilisis. Vivamus
+                    commodo nunc arcu, vel posuere turpis auctor id. </p>
+            </div>
+            <div id="Qualidade2">
+                <div id="lightblueboard">
+                    <h2 id="Qualida">Qualidade</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non metus consectetur, laoreet eros
+                    in, vestibulum augue. Nullam eu nulla ornare, blandit nisl.</p>
+            </div>
+        </section>
 
+    </main>
+    <footer>
+    </footer>
+</body>
 
-    </body>
 </html>
